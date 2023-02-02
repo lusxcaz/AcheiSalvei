@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+}
+.container__profile{
+    width: 100vw;
+    height: 100vh;
+    background: var(--azul-degrade);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__esquerdo{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__esquerdo > h1{
+    font-size: 3vw;
+    color: var(--laranja);
+}
+
+.container__direito{
+    width: 90vh;
+    padding: 0px 0px 0px 6cm;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__login{
+    width: 100cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: var(--azul);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #011e35;
+
+}
+.login__imagem{
+   width: 35vw; 
+}
+.container__login > h1{
+    color: var(--laranja);
+    font-family: var(--fonte-principal);
+    margin: 0;
+    
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: var(--laranja);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #011e35;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: white;
+}
+
+.btnlogin{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform:uppercase;
+    font-family: var(--font-secundario);
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: var(--laranja);
+    background: (--laranja);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #011e35;
+    
+}
+
+

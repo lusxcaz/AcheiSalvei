@@ -1,0 +1,84 @@
+.banner {
+    
+    color: var(--branco);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    padding: 90px 0px 150px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--azul-degrade);
+    overflow: hidden;
+    position: relative;
+     z-index: 1;
+   
+}
+
+
+
+.banner__circulo{
+    position: absolute;
+    top: 0cm;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--laranja);
+    clip-path: circle(73% at bottom right);
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.content .text h2{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.content .text h2 span{
+    font-size: 4.5em;
+    color: var(--laranja);
+}
+.content .text p{
+    color: #fff;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: var(--laranja);
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+
+.boximg{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    left: 45%;
+    top: -15%;
+}
+.gato{
+    width: 13cm;
+    
+}
+ 
